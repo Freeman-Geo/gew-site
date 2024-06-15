@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: bisque;
+    color: chocolate;
+}
+
+body{
+    background-color: black;
+    font-size: 1.5vw;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.violet{
+    color: blueviolet;
+}
+
+.lime{
+    color: limegreen;
+}
+
+.aquamarine{
+    color: aquamarine;
+}
+
+.orangered{
+    color: orangered;
+}
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.choc{
+    color: chocolate;
+}
+
+.P{
+    font-size: 2.5vw;
+}
+
+.p{
+    font-size: 2.0vw;
+}
+
+.align{
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hr-red{
+    border-color: red;
+    border-width: 1px;
+}
+
+.hr-green{
+    border-color: green;
+    border-width: 1px;
+}
+
+.mid{
+    position: absolute;
+    margin: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+
+.weight{
+    font-weight: 600;
+}
+
+.scroll{
+    overflow-y: scroll;
+    scrollbar-width: 0;
+}
+
+.underline{
+    border-bottom: 2px solid chocolate;
+}
+

@@ -1,0 +1,87 @@
+
+
+body{
+    margin: 2vh 2vw;
+}
+
+.title{
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+    padding-bottom: 0vh;
+}
+
+.instructions-container{
+    border: 2px solid chocolate;
+    color: white;
+    text-align: justify;
+    width: 90vw;
+    height: auto;
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    border-radius: 10px;
+}
+
+.test--container{
+    display: flex;
+    gap: 2vw;
+    margin-left: 1vw;
+    margin-top: 75vh;
+}
+
+.test--container-sides{
+    border: 2px solid chocolate;
+    padding: 2vh 2vw;
+    gap: 2vw;
+    width: 45vw;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+
+.test--container-sides:hover{
+    background-color: rgb(195, 6, 107);
+    border-color: chocolate;
+}
+
+.people{
+    width: 15vw;
+    position: absolute;
+    margin-top: 3vh;
+
+}
+
+.student{
+    left: 60vw;
+}
+
+.teacher{
+    left: 20vw;
+}
+
+.left{
+    margin-left: 38vw;
+}
+
+.test--container-bottom{
+    width: 92.2vw;
+    margin-left: 1vw;
+}
+
+
+.test--container-left{
+    width: 43vw;
+}
+
+.test--container-right{
+    background-color: transparent;
+    color: white;
+    font-size: 1.5vw;
+    width: 38vw;
+}
+
+.test--container-sub-bot{
+    width: 7vw;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
